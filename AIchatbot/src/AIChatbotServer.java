@@ -9,7 +9,7 @@ import java.nio.file.Files;
 
 public class AIChatbotServer {
 
-    private static final String API_KEY = "AIzaSyDhj-Y6pPwHbiHARQ8ssmx4OXPhbjg_SVc";
+    private static final String API_KEY = "Enter Gemini API Key";
 
     private static final String API_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=";
@@ -111,4 +111,5 @@ public class AIChatbotServer {
             return "Error reading AI response.";
         }
     }
+
 }
